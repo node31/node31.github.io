@@ -65,9 +65,99 @@ body {
 }
 
 :root {
-  --scrollbar-color: white; /* it will change when the page loads*/
+  --scrollbar-color: #233554;
+  --accent: #64ffda;
+  --bg-card: #112240;
 }
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-color) transparent;
+}
+
+/* ======= Premium Dark Theme Enhancements ======= */
+
+/* Smooth global transitions */
+a,
+button,
+.main-button,
+.header li a,
+.repo-card-div,
+.experience-card,
+.cert-card {
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Glowing teal accent on links */
+a:hover {
+  color: var(--accent) !important;
+}
+
+/* Better card styling for dark backgrounds */
+.repo-card-div {
+  background-color: var(--bg-card);
+  border: 1px solid #233554;
+  border-radius: 8px;
+}
+.repo-card-div:hover {
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.12);
+  transform: translateY(-3px);
+}
+.repo-name {
+  color: #ccd6f6 !important;
+}
+.repo-description {
+  color: #a8b2d1 !important;
+}
+.repo-stats {
+  color: #8892b0 !important;
+}
+
+/* Header nav hover glow */
+.header li a:hover {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+}
+
+/* Button glow on hover */
+.main-button:hover {
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Experience timeline card enhancements */
+.vertical-timeline-element-content {
+  border-radius: 8px !important;
+  box-shadow: 0 3px 15px rgba(2, 12, 27, 0.5) !important;
+}
+
+/* Certification card hover */
+.cert-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.1);
+}
+
+/* Software skill icons — subtle glow on hover */
+.software-skill-inline li:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+
+/* Social media icons hover */
+.social-icons .icon-button:hover {
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(100, 255, 218, 0.2);
+  color: #ccd6f6;
+}
+
+/* Navbar hamburger icon color for dark theme */
+.header .menu-icon .navicon,
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #ccd6f6;
 }

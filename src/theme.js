@@ -1,21 +1,25 @@
 // theme.js
 
-// Custom premium dark theme with electric cyan accents
-export const midnightCyanTheme = {
-  body: "#0a0e17",
-  text: "#e0e6ed",
-  expTxtColor: "#ccd6e0",
-  highlight: "#0ff0fc",
-  dark: "#060a12",
-  secondaryText: "#8892a4",
-  imageHighlight: "#00d4ff",
-  compImgHighlight: "#1a2332",
-  jacketColor: "#00b4d8",
-  headerColor: "#00d4ff33",
-  splashBg: "#0a0e17",
+// Premium dark theme inspired by brittanychiang.com, Linear.app, and Vercel.
+// Deep slate background with luminous teal accents — the gold-standard
+// developer portfolio palette. Every color is tuned for WCAG contrast
+// and visual harmony on dark backgrounds.
+export const slateTealTheme = {
+  body: "#0a192f", // deep navy-slate (Brittany Chiang signature)
+  text: "#ccd6f6", // soft blue-white for primary text
+  expTxtColor: "#a8b2d1", // muted lavender for experience body text
+  highlight: "#64ffda", // luminous teal green accent
+  dark: "#020c1b", // near-black for deepest layers
+  secondaryText: "#8892b0", // slate grey for subtitles & secondary info
+  imageHighlight: "#64ffda", // teal fills in SVG illustrations
+  compImgHighlight: "#112240", // dark card backgrounds
+  jacketColor: "#233554", // mid-slate for jacket / card outlines
+  headerColor: "#64ffda22", // translucent teal wash for timeline headers
+  splashBg: "#020c1b", // deep black for splash screen
 };
 
-export const blueTheme = {
+// Original midnightCyanTheme (deprecated — kept for reference)
+export const midnightCyanTheme = {
   body: "#EDF9FE",
   text: "#001C55",
   expTxtColor: "#000a12",
@@ -211,4 +215,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = midnightCyanTheme;
+export const chosenTheme = slateTealTheme;
