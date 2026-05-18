@@ -2,21 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon1.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="Pranav Gupta Portfolio"
-      content="Engineering Leader & AI Enthusiast"
-    />
-    <meta property="og:title" content="Pranav Gupta — Engineering Leader & AI Enthusiast" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://node31.github.io/" />
-    <meta name="description" content="Pranav Gupta's Portfolio — Engineering Leader, AI Enthusiast, and Cloud Architect" property="og:description">
-    <meta name="description" content="/icons/desc.png" property="og:image">
-    <meta name="keywords" content="Pranav Gupta, Portfolio, Engineering Leader, AI, Machine Learning, Cloud, node31" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Pranav Gupta — Engineering Leader & AI Enthusiast</title>
+    <meta name="description" content="Pranav Gupta is an engineering leader and AI enthusiast with deep expertise in AI/ML, distributed systems, cloud platforms, and desktop application technologies. BITS Pilani alum, AWS certified, and builder of high-performance teams." />
+    <meta name="keywords" content="Pranav Gupta, Engineering Leader, AI, Machine Learning, Cloud Architect, Software Engineer, Portfolio, node31, BITS Pilani" />
     <meta name="author" content="Pranav Gupta" />
     <meta name="application-name" content="Pranav Gupta's Portfolio" />
+    <link rel="canonical" href="https://node31.github.io/" />
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://node31.github.io/" />
+    <meta property="og:title" content="Pranav Gupta — Engineering Leader & AI Enthusiast" />
+    <meta property="og:description" content="Engineering leader and AI enthusiast building high-performance teams and impactful technology across AI/ML, distributed systems, cloud, and desktop platforms." />
+    <meta property="og:image" content="https://node31.github.io/icons/desc.png" />
+    <meta property="og:site_name" content="Pranav Gupta Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pranav Gupta — Engineering Leader & AI Enthusiast" />
+    <meta name="twitter:description" content="Engineering leader and AI enthusiast building high-performance teams and impactful technology across AI/ML, distributed systems, cloud, and desktop platforms." />
+    <meta name="twitter:image" content="https://node31.github.io/icons/desc.png" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Pranav Gupta",
+      "url": "https://node31.github.io",
+      "sameAs": [
+        "https://www.linkedin.com/in/pranavgupta3131/",
+        "https://github.com/node31"
+      ],
+      "jobTitle": "Engineering Leader",
+      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Cloud Computing", "Desktop Applications", "Distributed Systems"],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "BITS Pilani"
+      }
+    }
+    </script>
+
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -26,24 +57,16 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icons//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="msapplication-TileColor" content="#0D0E1A">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#0D0E1A">
 
-    <!--Removed Adsense - not needed-->
-
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
+    <!-- External Resources -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -51,28 +74,9 @@
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
-    
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Pranav Gupta — Portfolio</title>
+    <!-- SPA redirect for GitHub Pages -->
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
       (function (l) {
         if (l.search[1] === "/") {
           var decoded = l.search
@@ -94,15 +98,5 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

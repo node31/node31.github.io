@@ -60,6 +60,13 @@
   height: auto;
 }
 
+.contact-heading-img-div > img {
+  border-radius: 50%;
+  max-width: 280px;
+  box-shadow: 0 8px 30px rgba(110, 87, 255, 0.15);
+  border: 3px solid #1e2038;
+}
+
 .blog-heading-img-div > * {
   max-width: 100%;
   height: auto;

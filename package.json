@@ -36,7 +36,8 @@
     "dotenv": "^6.2.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "react-snap": "^1.23.0"
   },
   "browserslist": {
     "production": [

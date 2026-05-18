@@ -448,7 +448,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "programmer.svg",
+    profile_image_path: "pranav-gupta.jpg",
     description:
       "Pranav is active on LinkedIn and GitHub and regularly shares ideas on AI, engineering leadership, platform strategy, and practical software development. The best way to reach out is through LinkedIn or email.",
   },
