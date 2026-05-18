@@ -24,7 +24,6 @@ const greeting = {
   nickname: "node31",
   subTitle:
     "Engineering Leader & AI Enthusiast with deep experience in AI/ML, distributed systems, desktop application technologies, and cloud platforms. Passionate about building high-performance teams, shipping platform improvements, and sharing practical AI learnings with a growing community.",
-  resumeLink: "https://www.linkedin.com/in/pranavgupta3131/",
   portfolio_repository: "https://github.com/node31/node31.github.io",
   githubProfile: "https://github.com/node31",
 };
