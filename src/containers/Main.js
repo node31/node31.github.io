@@ -81,7 +81,10 @@ export default class Main extends Component {
 
           <Route
             path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            component={() => {
+              window.location.href = "https://github.com/node31/side-projects";
+              return null;
+            }}
           />
           <Route
             path="*"
