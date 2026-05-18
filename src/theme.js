@@ -1,9 +1,23 @@
 // theme.js
 
-// Premium dark theme inspired by brittanychiang.com, Linear.app, and Vercel.
-// Deep slate background with luminous teal accents — the gold-standard
-// developer portfolio palette. Every color is tuned for WCAG contrast
-// and visual harmony on dark backgrounds.
+// "Supernova Dark" — Premium dark theme inspired by Linear.app, Raycast,
+// and Vercel aesthetics. Deep near-black body with Electric Indigo accent.
+// More distinctive and modern than the overused teal/mint of 2020-era portfolios.
+export const supernovaDarkTheme = {
+  body: "#0D0E1A",
+  text: "#E4E6F0",
+  expTxtColor: "#C5C8DA",
+  highlight: "#161829",
+  dark: "#07080F",
+  secondaryText: "#7B82A8",
+  imageHighlight: "#6E57FF",
+  compImgHighlight: "#1E2038",
+  jacketColor: "#5B3FE8",
+  headerColor: "#6E57FF22",
+  splashBg: "#07080F",
+};
+
+// "Slate Teal" — Brittany Chiang-inspired classic dark portfolio palette.
 export const slateTealTheme = {
   body: "#0a192f", // deep navy-slate (Brittany Chiang signature)
   text: "#ccd6f6", // soft blue-white for primary text
@@ -215,4 +229,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = slateTealTheme;
+export const chosenTheme = supernovaDarkTheme;

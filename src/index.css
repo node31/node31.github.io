@@ -65,16 +65,19 @@ body {
 }
 
 :root {
-  --scrollbar-color: #233554;
-  --accent: #64ffda;
-  --bg-card: #112240;
+  --scrollbar-color: #1e2038;
+  --accent: #6e57ff;
+  --accent-light: #9b7dff;
+  --bg-card: #161829;
+  --bg-surface: #1e2038;
+  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-color) transparent;
 }
 
-/* ======= Premium Dark Theme Enhancements ======= */
+/* ======= Supernova Dark Theme Enhancements ======= */
 
 /* Smooth global transitions */
 a,
@@ -87,57 +90,57 @@ button,
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-/* Glowing teal accent on links */
+/* Accent color on links */
 a:hover {
-  color: var(--accent) !important;
+  color: var(--accent-light) !important;
 }
 
-/* Better card styling for dark backgrounds */
+/* Premium card styling */
 .repo-card-div {
   background-color: var(--bg-card);
-  border: 1px solid #233554;
+  border: 1px solid #1e2038;
   border-radius: 8px;
 }
 .repo-card-div:hover {
   border-color: var(--accent);
-  box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.12);
+  box-shadow: 0 10px 30px -15px rgba(110, 87, 255, 0.15);
   transform: translateY(-3px);
 }
 .repo-name {
-  color: #ccd6f6 !important;
+  color: #e4e6f0 !important;
 }
 .repo-description {
-  color: #a8b2d1 !important;
+  color: #c5c8da !important;
 }
 .repo-stats {
-  color: #8892b0 !important;
+  color: #7b82a8 !important;
 }
 
-/* Header nav hover glow */
+/* Header nav hover */
 .header li a:hover {
-  color: var(--accent) !important;
+  color: var(--accent-light) !important;
   background-color: transparent !important;
 }
 
 /* Button glow on hover */
 .main-button:hover {
-  box-shadow: 0 0 20px rgba(100, 255, 218, 0.15);
+  box-shadow: 0 0 25px rgba(110, 87, 255, 0.25);
   transform: translateY(-2px);
 }
 
-/* Experience timeline card enhancements */
+/* Experience timeline card */
 .vertical-timeline-element-content {
   border-radius: 8px !important;
-  box-shadow: 0 3px 15px rgba(2, 12, 27, 0.5) !important;
+  box-shadow: 0 3px 15px rgba(7, 8, 15, 0.6) !important;
 }
 
 /* Certification card hover */
 .cert-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.1);
+  box-shadow: 0 10px 30px -15px rgba(110, 87, 255, 0.12);
 }
 
-/* Software skill icons — subtle glow on hover */
+/* Software skill icons — glow on hover */
 .software-skill-inline li:hover {
   transform: scale(1.15);
   transition: transform 0.2s ease;
@@ -145,19 +148,40 @@ a:hover {
 
 /* Social media icons hover */
 .social-icons .icon-button:hover {
-  box-shadow: 0 0 15px rgba(100, 255, 218, 0.2);
+  box-shadow: 0 0 15px rgba(110, 87, 255, 0.25);
   transform: translateY(-3px);
 }
 
 /* Selection color */
 ::selection {
-  background: rgba(100, 255, 218, 0.2);
-  color: #ccd6f6;
+  background: rgba(110, 87, 255, 0.25);
+  color: #e4e6f0;
 }
 
 /* Navbar hamburger icon color for dark theme */
 .header .menu-icon .navicon,
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #ccd6f6;
+  background: #e4e6f0;
+}
+
+/* Hero gradient glow — subtle indigo radial behind hero section */
+.greet-main {
+  position: relative;
+}
+.greet-main::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 60%;
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    rgba(110, 87, 255, 0.08),
+    transparent
+  );
+  pointer-events: none;
+  z-index: 0;
 }
