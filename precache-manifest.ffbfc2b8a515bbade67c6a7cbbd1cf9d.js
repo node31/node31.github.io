@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70eee5b47e0039cbc9bcce2faea51a85",
+    "revision": "d8915cb31781d3a58a32d99cd2ba86d1",
     "url": "/index.html"
   },
   {
-    "revision": "1e7aed08005662218ec4",
-    "url": "/static/css/main.87bd4ad1.chunk.css"
+    "revision": "6a9dc87cf5d89d67e813",
+    "url": "/static/css/main.f15136ae.chunk.css"
   },
   {
-    "revision": "32a64a3c7a47cfb1b917",
-    "url": "/static/js/2.8bd05d74.chunk.js"
+    "revision": "2a18abd20a0aa204d181",
+    "url": "/static/js/2.46f9ea3d.chunk.js"
   },
   {
-    "revision": "1e7aed08005662218ec4",
-    "url": "/static/js/main.655cf6a1.chunk.js"
+    "revision": "6a9dc87cf5d89d67e813",
+    "url": "/static/js/main.f45a9d8e.chunk.js"
   },
   {
     "revision": "21648f7654f797f7a2da",
@@ -226,6 +226,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "414dfbd98516b39255a3e22ed90b3f7d",
     "url": "/static/media/portfolio.414dfbd9.gif"
+  },
+  {
+    "revision": "ba45c5dab9eae8b6c1e734969671eaf1",
+    "url": "/static/media/pranav-gupta.ba45c5da.jpg"
   },
   {
     "revision": "5faf790badc18fa9030f94836ece1df1",
