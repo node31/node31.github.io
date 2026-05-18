@@ -1,4 +1,20 @@
 // theme.js
+
+// Custom premium dark theme with electric cyan accents
+export const midnightCyanTheme = {
+  body: "#0a0e17",
+  text: "#e0e6ed",
+  expTxtColor: "#ccd6e0",
+  highlight: "#0ff0fc",
+  dark: "#060a12",
+  secondaryText: "#8892a4",
+  imageHighlight: "#00d4ff",
+  compImgHighlight: "#1a2332",
+  jacketColor: "#00b4d8",
+  headerColor: "#00d4ff33",
+  splashBg: "#0a0e17",
+};
+
 export const blueTheme = {
   body: "#EDF9FE",
   text: "#001C55",
@@ -195,4 +211,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const chosenTheme = midnightCyanTheme;
