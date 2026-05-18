@@ -45,11 +45,7 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-                  <Button
-                    text="See My Resume"
-                    href="/resume"
-                    theme={theme}
-                  />
+                  <Button text="See My Resume" href="/resume" theme={theme} />
                 </div>
               </div>
             </div>
@@ -76,22 +72,22 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
+                <img
+                  src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
+                  alt="Pranav by the lake"
+                  className="contact-section-photo"
+                />
               </div>
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
+                <img
+                  src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
+                  alt="Pranav traveling"
+                  className="contact-section-photo"
+                />
               </div>
               <div className="address-heading-text-div">
                 <h1

@@ -55,6 +55,23 @@
   height: auto;
 }
 
+.greeting-hero-photo {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(110, 87, 255, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    box-shadow 0.4s ease;
+}
+
+.greeting-hero-photo:hover {
+  transform: scale(1.03) translateY(-4px);
+  box-shadow: 0 28px 80px rgba(110, 87, 255, 0.35),
+    0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {

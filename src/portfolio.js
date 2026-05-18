@@ -430,14 +430,14 @@ const projectsHeader = {
   title: "Projects",
   description:
     "Pranav's project portfolio spans applied AI, systems research, developer tools, image processing, compilers, forecasting, and continuous side-project experimentation. From large-scale semantic prediction systems and gesture recognition to outbreak modeling, fraud-detection-oriented stream algorithms, and daily mini-projects across diverse stacks, the work reflects both breadth and execution depth.",
-  avatar_image_path: "projects_image.svg",
+  avatar_image_path: "ai-photo-3.jpg",
 };
 
 const publicationsHeader = {
   title: "Publications",
   description:
     "A growing body of technical writing and long-form AI learnings shared with the community.",
-  avatar_image_path: "projects_image.svg",
+  avatar_image_path: "ai-photo-3.jpg",
 };
 
 const publications = {
@@ -458,7 +458,7 @@ const contactPageData = {
       "Explore Pranav's LinkedIn article series covering LLM evaluation, prompt chaining, tokenization, transformers, prompt engineering, AI ethics, and hands-on experimentation with modern AI systems.",
     link:
       "https://www.linkedin.com/in/pranavgupta3131/recent-activity/articles/",
-    avatar_image_path: "blogs_image.svg",
+    avatar_image_path: "real-photo-1.jpg",
   },
   addressSection: {
     title: "Address",
@@ -468,7 +468,7 @@ const contactPageData = {
     region: "India",
     postalCode: "",
     streetAddress: "",
-    avatar_image_path: "address_image.svg",
+    avatar_image_path: "real-photo-2.jpg",
     location_map_link: "https://www.google.com/maps/place/India/",
   },
   phoneSection: {
